@@ -57,7 +57,7 @@ This project is the Week 1 task for the frontend internship program. The goal wa
 ## 📸 Screenshot
 
 Here’s how the layout looks:
-! [preview](week01_preview.png)
+! [preview](Week_01/week01_preview.png)
 
 
 ## 👩‍💻 Author
