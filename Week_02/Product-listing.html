@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home - E-commerce</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+  <!-- ============================HEADER ==================================
+       =====================================================================-->
+  <header class="site-header">
+
+    <div class="top-bar">
+      <a href="homepage.html" class="brand" aria-label="Homepage">
+        <img class="brand-icon" src="assets/logo-symbol.png" alt="Brand logo icon">
+        Brand
+      </a>
+      <div class="search-container" role="search">
+        <input type="search" class="search-input" placeholder="Search" aria-label="Search site" />
+        <select class="search-select" aria-label="Select category">
+          <option>All category</option>
+          <option>Clothes and wear</option>
+          <option>Automobiles</option>
+          <option>Home interiors</option>
+          <option>Computer and tech</option>
+          <option>Tools, equipments</option>
+          <option>Sports and outdoor</option>
+          <option>Animal and pets</option>
+          <option>Machinery and tools</option>
+          <option>More category</option>
+        </select>
+        <button class="search-btn" aria-label="Search button">Search</button>
+      </div>
+      <nav class="user-menu" aria-label="User menu">
+        <div class="user-item" tabindex="0" role="link" aria-label="Profile">
+          <img src="assets/profile.png" alt="Profile icon">
+          Profile
+        </div>
+        <div class="user-item" tabindex="0" role="link" aria-label="Message">
+          <img src="assets/message.png" alt="Message icon">
+          Message
+        </div>
+        <div class="user-item" tabindex="0" role="link" aria-label="Message">
+          <img src="assets/order.png" alt="Message icon">
+          Order
+        </div>
+        <div class="user-item" tabindex="0" role="link" aria-label="Message">
+          <img src="assets/my cart.png" alt="Message icon">
+          My Cart
+        </div>
+      </nav>
+    </div>
+
+    <nav aria-label="Main navigation">
+      <div class="all-category-menu" role="button" tabindex="0" aria-expanded="false" aria-haspopup="true">
+        <img src="assets/All category.png" alt="Down arrow icon" class="drop-down">
+        <span>All category</span>
+      </div>
+      <div class="nav-links">
+        <a href="#" tabindex="0">Hot offers</a>
+        <a href="#" tabindex="0">Gift boxes</a>
+        <a href="#" tabindex="0">Projects</a>
+        <a href="#" tabindex="0">Menu Item</a>
+        <a href="#" tabindex="0">Help <img src="assets/drop-down.png" alt="drop-down" class="drop-down"></a>
+      </div>
+      <div class="settings">
+        <div tabindex="0" role="button" aria-haspopup="true" aria-expanded="false" aria-label="Select language">
+          English, USD
+          <img src="assets/drop-down.png" alt="drop-down" class="drop-down">
+        </div>
+        <div tabindex="0" role="button" aria-haspopup="true" aria-expanded="false">
+          Ship to
+          <img class="flag" src="assets/to ship.png" alt="Shipping country flag">
+          <img src="assets/drop-down.png" alt="drop-down" class="drop-down">
+        </div>
+      </div>
+    </nav>
+
+  </header>
+
+  <main>
+    <div class="container">
+      <div class="breadcrumb">Home / Mobile accessory</div>
+
+      <div class="product-page">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+          <div class="filter-group">
+            <h4>Category</h4>
+            <label><input type="checkbox"> Mobile accessory</label>
+            <label><input type="checkbox"> Electronics</label>
+            <label><input type="checkbox"> Smartphones</label>
+            <label><input type="checkbox"> Modern tech</label>
+            <a href="#">See all</a>
+          </div>
+          <div class="filter-group">
+            <h4>Brands</h4>
+            <label><input type="checkbox"> Samsung</label>
+            <label><input type="checkbox"> Apple</label>
+            <label><input type="checkbox"> Huawei</label>
+            <label><input type="checkbox"> Pocco</label>
+            <label><input type="checkbox"> Lenovo</label>
+            <a href="#">See all</a>
+          </div>
+          <div class="filter-group">
+            <h4>Features</h4>
+            <label><input type="checkbox"> Metallic</label>
+            <label><input type="checkbox"> Plastic cover</label>
+            <label><input type="checkbox"> 8GB RAM</label>
+            <label><input type="checkbox"> Super power</label>
+            <label><input type="checkbox"> Large Memory</label>
+            <a href="#">See all</a>
+          </div>
+          <div class="filter-group">
+            <h4>Price Range</h4>
+            <input type="number" placeholder="Min"> - <input type="number" placeholder="Max">
+          </div>
+          <div class="filter-group">
+            <h4>Condition</h4>
+            <label><input type="radio" name="condition"> Any</label>
+            <label><input type="radio" name="condition"> Refurbished</label>
+            <label><input type="radio" name="condition"> New Brand</label>
+            <label><input type="radio" name="condition"> Old items</label>
+          </div>
+          <div class="filter-group">
+            <h4>Ratings</h4>
+            <label><input type="checkbox">⭐⭐⭐⭐⭐</label>
+            <label><input type="checkbox">⭐⭐⭐⭐</label>
+            <label><input type="checkbox">⭐⭐⭐</label>
+            <label><input type="checkbox">⭐⭐</label>
+            <label><input type="checkbox">⭐</label>
+          </div>
+        </aside>
+
+        <!-- Product Section -->
+        <div style="flex:1">
+
+          <!-- ------------------------Right Product Area ---------------------
+           ---------------------------------------------------------------------->
+          <!--product-grid"-->
+          <section class="product-grid">
+
+            <!-- Toolbar -->
+            <div class="toolbar">
+              <div class="toolbar-left">
+                <span class="results-count">12,911 results</span>
+              </div>
+              <div class="toolbar-right">
+                <label for="sortby">Sort by</label>
+                <select id="sortby">
+                  <option>Featured</option>
+                  <option>Price: Low to High</option>
+                  <option>Price: High to Low</option>
+                </select>
+                <div class="view-toggle">
+                  <button title="List view">☰</button>
+                  <button class="active" title="Grid view">▦</button>
+                </div>
+              </div>
+            </div>
+
+            <!-- Products Grid -->
+            <div class="grid">
+              <div class="product-card">
+                <img src="assets/mobiile-3.png" alt="Product 1">
+                <h3 class="product-title">Smartphone with large display and long battery life</h3>
+                <p class="product-price">$299.00</p>
+                <div class="rating">⭐⭐⭐⭐⭐ 7.5 <br>• 154 orders <br>
+                  <span style="color:green;">• Free Shipping</span>
+                </div>
+                <br>
+                <a href="#" class="btn primary">Buy Now</a>
+              </div>
+              <div class="product-card">
+                <img src="assets/mobile-04.png" alt="Product 2">
+                <h3 class="product-title">Smartphone with large display and long battery life</h3>
+                <p class="product-price">$49.99</p>
+                <div class="rating">⭐⭐⭐⭐ 6.5 <br>• 140 orders <br>
+                  <span style="color:green;">• Free Shipping</span>
+                </div>
+                <br>
+                <a href="#" class="btn primary">Buy Now</a>
+              </div>
+              <div class="product-card">
+                <img src="assets/1.png" alt="Product 3">
+                <h3 class="product-title">Smartphone with large display and long battery life</h3>
+                <p class="product-price">$60.00</p>
+                <div class="rating">⭐⭐⭐⭐⭐ 8.5 <br>• 174 orders <br>
+                  <span style="color:green;">• Free Shipping</span>
+                </div>
+                <br>
+                <a href="#" class="btn primary">Buy Now</a>
+              </div>
+              <div class="product-card">
+                <img src="assets/laptop.png" alt="Product 3">
+                <h3 class="product-title">High-performance Laptop for professionals</h3>
+                <p class="product-price">$3000.00</p>
+                <div class="rating">⭐⭐⭐⭐⭐ 9.5 <br>• 166 orders <br>
+                  <span style="color:green;">• Free Shipping</span>
+                </div>
+                <br>
+                <a href="#" class="btn primary">Buy Now</a>
+              </div>
+              <div class="product-card">
+                <img src="assets/headphone.png" alt="Product 3">
+                <h3 class="product-title">Wireless Headphones with noise cancellation</h3>
+                <p class="product-price">$120.00</p>
+                <div class="rating">⭐⭐⭐⭐ 7.5 <br>• 150 orders <br>
+                  <span style="color:green;">• Free Shipping</span>
+                </div>
+                <br>
+                <a href="#" class="btn primary">Buy Now</a>
+              </div>
+              <div class="product-card">
+                <img src="assets/camera.png" alt="Product 3">
+                <h3 class="product-title">Camera that capture every momemt</h3>
+                <p class="product-price">$200.00</p>
+                <div class="rating">⭐⭐⭐⭐⭐ 7.5 <br>• 154 orders <br>
+                  <span style="color:green;">• Free Shipping</span>
+                </div>
+                <br>
+                <a href="#" class="btn primary">Buy Now</a>
+              </div>
+              <div class="product-card">
+                <img src="assets/smartwatch.png" alt="Product 3">
+                <h3 class="product-title">Digital Watch for easy use</h3>
+                <p class="product-price">$99.00</p>
+                <div class="rating">⭐⭐⭐ 2.5 <br>• 154 orders <br>
+                  <span style="color:green;">• Free Shipping</span>
+                </div>
+                <br>
+                <a href="#" class="btn primary">Buy Now</a>
+              </div>
+              <div class="product-card">
+                <img src="assets/simple headphone.png" alt="Product 3">
+                <h3 class="product-title">Wireless Headphones with noise cancellation</h3>
+                <p class="product-price">$90.00</p>
+                <div class="rating">⭐⭐⭐⭐⭐ 7.5 <br>• 154 orders <br>
+                  <span style="color:green;">• Free Shipping</span>
+                </div>
+                <br>
+                <a href="#" class="btn primary">Buy Now</a>
+              </div>
+            </div>
+
+            <!-- Pagination -->
+            <div class="pagination">
+              <button class="prev" aria-label="Previous page">&laquo;</button>
+              <button class="active">1</button>
+              <button>2</button>
+              <button>3</button>
+              <button>4</button>
+              <button class="next" aria-label="Next page">&raquo;</button>
+            </div>
+          </section>
+        </div>
+      </div>
+    </div>
+
+    <!-- =================================NEWSLETTER ========================
+         ==================================================================== -->
+    <section class="newsletter container" aria-labelledby="newsletter-label">
+      <h2 id="newsletter-label">Subscribe on our newsletter</h2>
+      <p>Get daily news on upcoming offers from many suppliers all over the world</p>
+      <form aria-label="Subscribe to newsletter" onsubmit="alert('Subscribed!');return false;">
+        <input type="email" aria-label="Email address" placeholder="Email" required />
+        <button type="submit">Subscribe</button>
+      </form>
+    </section>
+  </main>
+
+
+  <!-- =================================FOOTER =================================
+       ========================================================================= -->
+  <footer>
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand-section">
+          <a href="homepage.html" class="footer-brand" aria-label="Homepage">
+            <img class="footer-brand-icon" src="assets/logo-symbol.png" alt="Brand logo icon">
+            Brand
+          </a>
+          <p class="footer-description">
+            Best information about the company gies here but now lorem ipsum is
+          </p>
+
+          <div class="social-icons" role="list">
+            <div class="social-icon" role="listitem" tabindex="0" aria-label="Facebook">
+              <img src="assets/facebook3.png" alt="Facebook social icon">
+            </div>
+            <div class="social-icon" role="listitem" tabindex="0" aria-label="Twitter">
+              <img src="assets/twitter3.png" alt="Twitter social icon">
+            </div>
+            <div class="social-icon" role="listitem" tabindex="0" aria-label="LinkedIn">
+              <img src="assets/linkedin3.png" alt="LinkedIn social icon">
+            </div>
+            <div class="social-icon" role="listitem" tabindex="0" aria-label="Instagram">
+              <img src="assets/instagram3.png" alt="Instagram social icon">
+            </div>
+            <div class="social-icon" role="listitem" tabindex="0" aria-label="YouTube">
+              <img src="assets/u tube.png" alt="YouTube social icon">
+            </div>
+          </div>
+        </div>
+        <footer>
+          <div class="footer-links">
+            <div class="footer-column" aria-label="About links">
+              <div class="footer-column-title">About</div>
+              <a href="#">About Us</a>
+              <a href="#">Find store</a>
+              <a href="#">Categories</a>
+              <a href="#">Blogs</a>
+            </div>
+            <div class="footer-column" aria-label="Partnership links">
+              <div class="footer-column-title">Partnership</div>
+              <a href="#">About Us</a>
+              <a href="#">Find store</a>
+              <a href="#">Categories</a>
+              <a href="#">Blogs</a>
+            </div>
+            <div class="footer-column" aria-label="Information links">
+              <div class="footer-column-title">Information</div>
+              <a href="#">Help Center</a>
+              <a href="#">Refund</a>
+              <a href="#">Shipping</a>
+              <a href="#">Contact us</a>
+            </div>
+            <div class="footer-column" aria-label="User links">
+              <div class="footer-column-title">For users</div>
+              <a href="#">Login</a>
+              <a href="#">Register</a>
+              <a href="#">Settings</a>
+              <a href="#">My Orders</a>
+            </div>
+            <div class="footer-get-app" aria-label="Get app">
+              <div class="footer-column-title">Get app</div>
+              <a class="app-badge" href="#" aria-label="Download on the App Store">
+                <img src="assets/App Store.png" alt="App Store badge black background with white text">
+              </a>
+              <a class="app-badge" href="#" aria-label="Get it on Google Play">
+                <img src="assets/google playstore.png" alt="Google Play badge black background with white text">
+              </a>
+            </div>
+          </div>
+      </div>
+      <!--footer bottom-->
+      <div class="footer-bottom">
+        <div class="copyright">© 2023 Ecommerce.</div>
+        <div class="language-picker" tabindex="0" role="button" aria-haspopup="true" aria-expanded="false">
+          <img class="flag" src="assets/US@2x.png" alt="USA flag for English language">
+          English
+          <div class="back-to-top">
+            <a href="#"><img class="" src="assets/scroll-up icon.png" alt="Down arrow icon"
+                style="width: 12px; height:12px; background-color:transparent;"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
