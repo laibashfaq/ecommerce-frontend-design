@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Product Details - E-commerce</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="top-bar">
+            <a href="#" class="brand" aria-label="Homepage">
+                <img class="brand-icon" src="assets/logo-symbol.png" alt="Brand logo icon">
+                Brand
+            </a>
+            <div class="search-container" role="search">
+                <input type="search" class="search-input" placeholder="Search" aria-label="Search site" />
+                <select class="search-select" aria-label="Select category">
+                    <option>All category</option>
+                    <option>Clothes and wear</option>
+                    <option>Automobiles</option>
+                    <option>Home interiors</option>
+                    <option>Computer and tech</option>
+                    <option>Tools, equipments</option>
+                    <option>Sports and outdoor</option>
+                    <option>Animal and pets</option>
+                    <option>Machinery and tools</option>
+                    <option>More category</option>
+                </select>
+                <button class="search-btn" aria-label="Search button">Search</button>
+            </div>
+            <nav class="user-menu" aria-label="User menu">
+                <div class="user-item" tabindex="0" role="link" aria-label="Profile">
+                    <img src="assets/profile.png" alt="Profile icon">
+                    Profile
+                </div>
+                <div class="user-item" tabindex="0" role="link" aria-label="Message">
+                    <img src="assets/message.png" alt="Message icon">
+                    Message
+                </div>
+                <div class="user-item" tabindex="0" role="link" aria-label="Order">
+                    <img src="assets/order.png" alt="Message icon">
+                    Order
+                </div>
+                <div class="user-item" tabindex="0" role="link" aria-label="My Cart">
+                    <img src="assets/my cart.png" alt="Message icon">
+                    My Cart
+                </div>
+            </nav>
+        </div>
+
+        <nav aria-label="Main navigation">
+            <div class="all-category-menu" role="button" tabindex="0" aria-expanded="false" aria-haspopup="true">
+                <img src="assets/All category.png" alt="Down arrow icon" class="drop-down">
+                <span>All category</span>
+            </div>
+            <div class="nav-links">
+                <a href="#" tabindex="0">Hot offers</a>
+                <a href="#" tabindex="0">Gift boxes</a>
+                <a href="#" tabindex="0">Projects</a>
+                <a href="#" tabindex="0">Menu Item</a>
+                <a href="#" tabindex="0">Help <img src="assets/drop-down.png" alt="drop-down" class="drop-down"></a>
+            </div>
+            <div class="settings">
+                <div tabindex="0" role="button" aria-haspopup="true" aria-expanded="false" aria-label="Select language">
+                    English, USD
+                    <img src="assets/drop-down.png" alt="drop-down" class="drop-down">
+                </div>
+                <div tabindex="0" role="button" aria-haspopup="true" aria-expanded="false">
+                    Ship to
+                    <img class="flag" src="assets/to ship.png" alt="Shipping country flag">
+                    <img src="assets/drop-down.png" alt="drop-down" class="drop-down">
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container product-details-page">
+
+        <!-- Breadcrumb -->
+        <div class="breadcrumb">Home / Clothing / Men's Wear / Summer Clothing</div>
+
+        <!-- Product Details Layout -->
+        <div class="product-details-layout">
+
+            <!-- Left Column: Images -->
+            <div class="product-images">
+                <img id="mainImage" src="assets/main_image.png" alt="Main Product Image" class="main-image">
+                <div class="thumbnail-list">
+                    <img src="assets/Image.png" alt="thumb" class="active">
+                    <img src="assets/Image (1).png" alt="thumb">
+                    <img src="assets/Image (2).png" alt="thumb">
+                    <img src="assets/Image (3).png" alt="thumb">
+                    <img src="assets/Image (4).png" alt="thumb">
+                    <img src="assets/Image (5).png" alt="thumb">
+                </div>
+            </div>
+
+            <!-- Middle Column: Details -->
+            <div class="product-info">
+                <span class="stock-status in-stock">✔ In stock</span>
+                <h1 class="product-title">Mens Long Sleeve T-shirt Cotton Base Layer Slim Muscle</h1>
+                <div class="rating">
+                    <img src="assets/rating.png" alt="rating"> 9.3 <span class="reviews">32 reviews</span> • 154 sold
+                </div>
+
+                <div class="price-table">
+                    <div>
+                        <p class="price">$98.00</p>
+                        <span>50-100 pcs</span>
+                    </div>
+                    <div>
+                        <p class="price">$90.00</p>
+                        <span>100-700 pcs</span>
+                    </div>
+                    <div>
+                        <p class="price">$78.00</p>
+                        <span>700+ pcs</span>
+                    </div>
+                </div>
+
+                <table class="specs">
+                    <tr>
+                        <td>Price:</td>
+                        <td>Negotiable</td>
+                    </tr>
+                    <tr>
+                        <td>Type:</td>
+                        <td>Classic shoes</td>
+                    </tr>
+                    <tr>
+                        <td>Material:</td>
+                        <td>Plastic material</td>
+                    </tr>
+                    <tr>
+                        <td>Design:</td>
+                        <td>Modern nice</td>
+                    </tr>
+                    <tr>
+                        <td>Customization:</td>
+                        <td>Customized logo and packages</td>
+                    </tr>
+                    <tr>
+                        <td>Protection:</td>
+                        <td>Refund Policy</td>
+                    </tr>
+                    <tr>
+                        <td>Warranty:</td>
+                        <td>2 years full warranty</td>
+                    </tr>
+                </table>
+            </div>
+
+            <!-- Right Column: Seller -->
+            <aside class="seller-card">
+                <!-- Seller header with logo and name -->
+                <div class="seller-header">
+                    <div class="seller-logo">R</div>
+                    <div class="seller-info">
+                        <strong>Rimiya Supplier Ltd.</strong>
+                        <p class="seller-location">Germany, Berlin</p>
+                        <p class="verified">✔ Verified Seller</p>
+                    </div>
+                </div>
+
+                <!-- Divider -->
+                <hr>
+
+                <!-- Supplier details -->
+                <ul class="seller-details">
+                    <li><strong>4.5</strong> / 5 ★ Rating</li>
+                    <li><strong>150+</strong> Transactions</li>
+                    <li><strong>95%</strong> On-time delivery</li>
+                </ul>
+
+                <!-- Action buttons -->
+                <div class="seller-actions">
+                    <button class="btn primary">Send inquiry</button>
+                    <button class="btn ghost">Seller's profile</button>
+                </div>
+            </aside>
+
+
+        </div>
+
+        <div class="product-tabs">
+            <ul class="tab-list">
+                <li class="tab-item active" data-tab="description">Description</li>
+                <li class="tab-item" data-tab="reviews">Reviews</li>
+                <li class="tab-item" data-tab="shipping">Shipping</li>
+                <li class="tab-item" data-tab="about-seller">About seller</li>
+            </ul>
+
+            <div class="tab-content active" id="description">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+
+                <table class="product-info-table">
+                    <tr>
+                        <td>Model</td>
+                        <td>#8786867</td>
+                    </tr>
+                    <tr>
+                        <td>Style</td>
+                        <td>Classic style</td>
+                    </tr>
+                    <tr>
+                        <td>Certificate</td>
+                        <td>ISO-898921212</td>
+                    </tr>
+                    <tr>
+                        <td>Size</td>
+                        <td>34mm x 450mm x 19mm</td>
+                    </tr>
+                    <tr>
+                        <td>Memory</td>
+                        <td>36GB RAM</td>
+                    </tr>
+                </table>
+                <br>
+
+                <ul class="feature-list">
+                    <li><img src="assets/check.png" alt="check"> great feature name here</li>
+                    <li><img src="assets/check.png" alt="check">Lorem ipsum dolor sit amet, consectetur</li>
+                    <li><img src="assets/check.png" alt="check">Quis aute irure dolor in reprehenderit</li>
+                    <li><img src="assets/check.png" alt="check">Some great feature name here</li>
+                </ul>
+            </div>
+
+            <div class="tab-content" id="reviews">
+                <p>No reviews yet.</p>
+            </div>
+            <div class="tab-content" id="shipping">
+                <p>Shipping details will be provided here.</p>
+            </div>
+            <div class="tab-content" id="about-seller">
+                <p>About seller content goes here.</p>
+            </div>
+        </div>
+
+
+        <div class="related-products-section">
+            <h3>Related products</h3>
+            <div class="related-products">
+                <div class="related-item">
+                    <img src="assets/wallet.png" alt="Wallet">
+                    <p>Xiaomi Redmi 8 Original</p>
+                    <span>$32.00 – $40.00</span>
+                </div>
+                <div class="related-item">
+                    <img src="assets/smartwatch.png" alt="Smartwatch">
+                    <p>Xiaomi Redmi 8 Original</p>
+                    <span>$32.00 – $40.00</span>
+                </div>
+                <div class="related-item">
+                    <img src="assets/simple headphone.png" alt="Headphone">
+                    <p>Xiaomi Redmi 8 Original</p>
+                    <span>$32.00 – $40.00</span>
+                </div>
+                <div class="related-item">
+                    <img src="assets/shorts.png" alt="Shorts">
+                    <p>Xiaomi Redmi 8 Original</p>
+                    <span>$32.00 – $40.00</span>
+                </div>
+                <div class="related-item">
+                    <img src="assets/kettle.png" alt="Kettle">
+                    <p>Xiaomi Redmi 8 Original</p>
+                    <span>$32.00 – $40.00</span>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="promo-banner">
+            <div class="promo-text">
+                <h3>Super discount on more than 100 USD</h3>
+                <p>Have you ever finally just write dummy info</p>
+            </div>
+            <a href="#" class="btn-shop">Shop now</a>
+        </div>
+
+    </main>
+    <!--===========================FOOTER================================
+    ==================================================================-->
+
+    <footer>
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-brand-section">
+                    <a href="#" class="footer-brand" aria-label="Homepage">
+                        <img class="footer-brand-icon" src="assets/logo-symbol.png" alt="Brand logo icon">
+                        Brand
+                    </a>
+                    <p class="footer-description">
+                        Best information about the company gies here but now lorem ipsum is
+                    </p>
+
+                    <div class="social-icons" role="list">
+                        <div class="social-icon" role="listitem" tabindex="0" aria-label="Facebook">
+                            <img src="assets/facebook3.png" alt="Facebook social icon">
+                        </div>
+                        <div class="social-icon" role="listitem" tabindex="0" aria-label="Twitter">
+                            <img src="assets/twitter3.png" alt="Twitter social icon">
+                        </div>
+                        <div class="social-icon" role="listitem" tabindex="0" aria-label="LinkedIn">
+                            <img src="assets/linkedin3.png" alt="LinkedIn social icon">
+                        </div>
+                        <div class="social-icon" role="listitem" tabindex="0" aria-label="Instagram">
+                            <img src="assets/instagram3.png" alt="Instagram social icon">
+                        </div>
+                        <div class="social-icon" role="listitem" tabindex="0" aria-label="YouTube">
+                            <img src="assets/u tube.png" alt="YouTube social icon">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="footer-links">
+                    <div class="footer-column" aria-label="About links">
+                        <div class="footer-column-title">About</div>
+                        <a href="#">About Us</a>
+                        <a href="#">Find store</a>
+                        <a href="#">Categories</a>
+                        <a href="#">Blogs</a>
+                    </div>
+                    <div class="footer-column" aria-label="Partnership links">
+                        <div class="footer-column-title">Partnership</div>
+                        <a href="#">About Us</a>
+                        <a href="#">Find store</a>
+                        <a href="#">Categories</a>
+                        <a href="#">Blogs</a>
+                    </div>
+                    <div class="footer-column" aria-label="Information links">
+                        <div class="footer-column-title">Information</div>
+                        <a href="#">Help Center</a>
+                        <a href="#">Refund</a>
+                        <a href="#">Shipping</a>
+                        <a href="#">Contact us</a>
+                    </div>
+                    <div class="footer-column" aria-label="User links">
+                        <div class="footer-column-title">For users</div>
+                        <a href="#">Login</a>
+                        <a href="#">Register</a>
+                        <a href="#">Settings</a>
+                        <a href="#">My Orders</a>
+                    </div>
+                    <div class="footer-get-app" aria-label="Get app">
+                        <div class="footer-column-title">Get app</div>
+                        <a class="app-badge" href="#" aria-label="Download on the App Store">
+                            <img src="assets/App Store.png" alt="App Store badge black background with white text">
+                        </a>
+                        <a class="app-badge" href="#" aria-label="Get it on Google Play">
+                            <img src="assets/google playstore.png"
+                                alt="Google Play badge black background with white text">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!--footer bottom-->
+            <div class="footer-bottom">
+                <div class="copyright">© 2023 Ecommerce.</div>
+                <div class="language-picker" tabindex="0" role="button" aria-haspopup="true" aria-expanded="false">
+                    <img class="flag" src="assets/US@2x.png" alt="USA flag for English language">
+                    English
+                    <div class="back-to-top">
+                        <a href="#"><img class="" src="assets/scroll-up icon.png" alt="Down arrow icon"
+                                style="width: 12px; height:12px; background-color:transparent;"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/product-details.js"></script>
+</body>
+
+</html>
