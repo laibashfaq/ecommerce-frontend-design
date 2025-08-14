@@ -1,4 +1,4 @@
-# 🛍️ E-Commerce Website – Week 1 & Week 2
+# 🛍️ E-Commerce Website – Week 1,Week 2 & Week 3
 
 ## 📌 Overview
 This project is part of the frontend development practice series, where we replicate a given **Figma design** into a fully responsive and pixel-perfect website using **HTML & CSS**.  
@@ -59,6 +59,9 @@ Build the **home page** and **product listing page** using the desktop layout fr
 ## 📹 Project Demo
 🎥 **Watch the Demo Video:** [![📺 Watch the demo]](Week_02/week2-preview/week2-preview.mp4)
 
+ if not found by the link you may download the file for better visualization.        
+ (The video demonstrates the Week 3 Product Details Page and interactivity in action)   
+        
 ---
 
 ## 💻 Technologies Used
@@ -166,4 +169,4 @@ ecommerce-frontend-design/
 
 
 ## 📌 Author 
-GitHub: [YourProfileLink](https://github.com/laibashfaq)  
+GitHub: [https://github.com/laibashfaq]  
