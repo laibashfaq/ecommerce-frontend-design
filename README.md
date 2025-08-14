@@ -1,7 +1,7 @@
 # 🛍️ E-Commerce Website – Week 1,Week 2 & Week 3
 
 ## 📌 Overview
-This project is part of the frontend development practice series, where we replicate a given **Figma design** into a fully responsive and pixel-perfect website using **HTML & CSS**.  
+This project is part of the frontend development internship series @ DevelopersHub Corporation, where we replicate a given **Figma design** into a fully responsive and pixel-perfect website using **HTML & CSS**.  
 The focus is on understanding the design system, creating reusable components, and implementing accurate layouts for desktop screens.
 
 ---
